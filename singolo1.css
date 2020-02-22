@@ -1,3 +1,61 @@
+.header {
+    
+}
+
+.header-bottom {
+    width: 100%;
+    height: 6px;
+    background-color: #323746;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    font-weight:normal;
+    font-size: 23px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.logo flake {
+    color: #f06c64;
+    font-size: 21px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top:15px;
+}
+
+.active {
+    color: #f06c64 !important;
+}
+
+.header-content {
+    padding-right:10px;
+    padding-left:40px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d303a;
+    font-family: "Lato Bold", Verdana, sans-serif;
+}
+
+.header-navigation {
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.header-navigation li {
+    margin-right: 30px;
+
+}
+
 a {
     text-decoration: none;
     color: #ffffff;
@@ -8,60 +66,78 @@ a {
     width: 1020px;
     margin: 0 auto;
 }
+/*===== slider =======*/
 
-.header {
-    
-}
-.header-bottom {
+.slider-content {
+    position: relative;
+    background-color: #f06c64;
     width: 100%;
-    height: 5px;
-    background-color: #323746;
+    height: 600px;
+}
+/*vertical-phone*/
+
+.vertical-phone {
+    position: absolute;
+    left: 112px;
+    top: 54px;
+}
+.vertical-phone-base {
+    position: absolute;
 }
 
-.logo {
-    margin: 0;
-    padding: 0;
-    font-weight:normal;
-    font-size: 25px;
-    color: #ffffff;
-    text-transform: uppercase;
+.vertical-phone-screen {
+    position: absolute;
+    top: 62px;
+    left: 12px;
 }
 
-.logo star {
-    color: #f06c64;
-    font-size: 19px;
+.vertical-phone-shadow {
+    position: absolute;
 }
 
-.navigation {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding-top:13px;
+/*horizontal-phone*/
+
+.horizontal-phone {
+    position: relative;
+    left: 425px;
+    top: 172px;
 }
 
-.active {
-    color: #f06c64 !important;
+.horizontal-phone-base {
+    position: absolute;
+}
+.horizontal-phone-screen {
+    position: absolute;
+    top: 12px;
+    left: 57px;
+}
+.horizontal-phone-shadow {
+    position: absolute;
+}
+.slider-bottom {
+    width: 100%;
+    height: 6px;
+    background-color: #ea676b;
 }
 
-.header-content {
-    padding-right:10px;
-    padding-left:40px;
-    height: 95px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #2d303a;
-    font-family: "Lato Bold", Verdana, sans-serif;
+.slider-button-left {
+    position: absolute;
+    left: 40px;
+    top: 285px;
+    background-image: url("assets/img/left.png");
+    display: block;
+    width: 16px;
+    height: 27px;
+    cursor: pointer;
 }
 
-.header-navigation {
-    font-size: 10px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-}
-
-.header-navigation li {
-    margin-right: 25px;
-
+.slider-button-right {
+    position: absolute;
+    right: 40px;
+    top: 285px;
+    background-image: url("assets/img/right.png");
+    display: block;
+    width: 16px;
+    height: 27px;
+    cursor: pointer;
 }
