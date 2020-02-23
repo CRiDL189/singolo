@@ -1,6 +1,15 @@
-.header {
-    
+a {
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing:normal;
 }
+
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+/*====== header ======*/
 
 .header-bottom {
     width: 100%;
@@ -12,14 +21,13 @@
     margin: 0;
     padding: 0;
     font-weight:normal;
-    font-size: 23px;
+    font-size: 25px;
     color: #ffffff;
     text-transform: uppercase;
 }
 
-.logo flake {
+.logo sup {
     color: #f06c64;
-    font-size: 21px;
 }
 
 .navigation {
@@ -42,37 +50,29 @@
     align-items: center;
     justify-content: space-between;
     background-color: #2d303a;
-    font-family: "Lato Bold", Verdana, sans-serif;
+    font-family: 'Lato-Bold', Verdana, sans-serif;
+    src: url(assets/fonts/Lato-Bold.ttf);
 }
 
 .header-navigation {
-    font-size: 11px;
+    font-size: 12px;
+    padding-left:40px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }
 
 .header-navigation li {
-    margin-right: 30px;
+    margin-right: 35px;
 
 }
 
-a {
-    text-decoration: none;
-    color: #ffffff;
-    letter-spacing:normal;
-}
-
-.wrapper {
-    width: 1020px;
-    margin: 0 auto;
-}
 /*===== slider =======*/
 
 .slider-content {
     position: relative;
     background-color: #f06c64;
     width: 100%;
-    height: 600px;
+    height: 594px;
 }
 /*vertical-phone*/
 
@@ -140,4 +140,75 @@ a {
     width: 16px;
     height: 27px;
     cursor: pointer;
+}
+
+/*===== our services =====*/
+.our-services{
+    height: 494px;
+}
+
+.our-services__content {
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 60px 40px;
+    height: 494px;
+}
+
+.our-services__content {
+    color: #666d89;
+}
+
+.our-services__content h2 {
+    font-family: 'Lato Black', Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.our-services__content > p {
+    font-family: 'Lato Light', Verdana, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0;
+
+}
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.card__icon {
+    width: 60px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+}
+.card__content {
+    width: 220px;
+    margin-left: 20px;
+}
+
+.card__title {
+    margin: 0 0 15px 0;
+    font-family: 'Lato Black', Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.card__description {
+    margin: 0;
+    font-family: 'Lato Regular', Verdana, sans-serif;
+    font-size: 10px;
+    line-height: 22px;
+    text-align: justify;
 }
