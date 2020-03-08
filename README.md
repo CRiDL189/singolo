@@ -1,2 +1,2 @@
 # singolo
-https://CRiDL189.github.io/singolo/
+https://cridl189.github.io/singolo/
