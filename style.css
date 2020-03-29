@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1019px;
+  max-width: 1020px;
   margin: 0 auto;
 }
 
@@ -330,7 +330,7 @@ header {
 }
 
 .slide_slide2 {
-  left: 1019px;
+  left: 1020px;
   transition: left 1s; 
   background-color: #648BF0;
   border-bottom: 6px solid #5173cb;
@@ -438,7 +438,7 @@ header {
 }
 
 .services {
-  width: 1019px;
+  max-width: 1020px;
   height: 494px;
   background-color: #f2f2f2;
   border-bottom: 6px solid #ffffff;
